@@ -11,9 +11,10 @@
 }
 
 .jumbotron {
-  background-image:url("galaxy.jpg");
+  background-image:url("galaxy1.jpg");
   background-repeat:no-repeat;
   background-color:lightblue;
+  background-size:contain;
   height: 500px;
 }
 
