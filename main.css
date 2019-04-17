@@ -11,7 +11,9 @@
 }
 
 .jumbotron {
-  background-image:url('https://9to5mac.files.wordpress.com/2014/08/kjyvq6i.jpg?quality=82&strip=all&w=996&h=623');
+  background-image:url("galaxy.jpg");
+  background-repeat:no-repeat;
+  background-color:lightblue;
   height: 500px;
 }
 
