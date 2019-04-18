@@ -10,8 +10,8 @@
     <!--<link rel="stylesheet" href="style/bootstrap.css">-->
     <link rel="stylesheet" href="main.css">
 
-    <!-- New Function Trial-->
-    <link href="main2.css" rel="stylesheet"></link>
+    <!-- Footer & Share Link & Navigation Bar-->
+    <link href="main.css" rel="stylesheet"></link>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"></link>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.1.0/addons/bootstrap/jquery.smartmenus.bootstrap.min.css" rel="stylesheet"></link>
@@ -24,25 +24,29 @@
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="Archieve/CV/Resume.pdf">Resume</a></li>
-          <li><a href="Archieve/CV/works.pdf">Protofolio</a></li>
-	  <li><a href="#">Contents</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-	<ul class="pull-down">
-          <li><a href="https://portran.wordpress.com/簡介/">About me</a></li>
-          <li><a href="https://portran.wordpress.com/聯絡/">Contact</a></li>
-        </ul>
-      </div> <!-- end container class -->
-    </div> <!--end nav class -->
-
+      <section id="navPage">
+         <div class="nav-page">
+             <div class="container">
+                <ul class="pull-left">
+                    <li><a href="index.html">My Website</a></li>
+                </ul>
+                <ul class="pull-right">
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Log In</a></li>
+                  <!--
+                  <li><a href="#">Help</a></li>
+                   -->
+                </ul>
+                <ul class="pull-down">
+                  <li><a href="#">Help</a></li>
+                  <!--
+                  <li><a href="https://portran.wordpress.com/簡介/">About me</a></li>
+                  <li><a href="https://portran.wordpress.com/聯絡/">Contact</a></li>
+                   -->
+                </ul>
+            </div>
+        </div>
+    </section>
     <!-- Navigation Bar -->
     <nav class="nav bar navbar-default" role="navigation">
         <!-- Website Title -->
@@ -54,16 +58,52 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- Website Title Setting-->
-            <a class="navbar-brand" href="#">Portran</a>
+            <a class="navbar-brand" href="index.html">Home</a>
              
         </div>
         <!-- End Website title -->
         <!-- Drop Down List -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">HOME</a></li>
+                <li class="active"><a href="https://portran.wordpress.com/簡介/">About</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Protfolio <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://github.com/zxspring21/zxspring21.github.io">Web</a></li>
+                        <li><a href="#">Mobile<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://github.com/zxspring21/Android">Android</a></li>
+                                <li><a href="#">iOS<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://github.com/zxspring21/foodtracker">Food Tracker</a></li>
+                                        <li><a href="https://github.com/zxspring21/iOS">Halloween Cards</a></li>
+                                        <li><a href="https://github.com/zxspring21/StarWar-App">Star Wars</a></li>
+                                    </ul>
+                            </ul>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Computer Science<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Computer Vision</a></li>
+                        <li><a href="https://github.com/zxspring21/Python">Machine Learning</a></li>
+                        <li><a href="#">Block Chain</a></li>
+                        <li><a href="#">Eembed System</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://portran.wordpress.com/category/programming/">Technical Articles</a></li>
+                        <li><a href="https://portran.wordpress.com/category/toefl/">English Learning</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="https://portran.wordpress.com/聯絡/">Contact</a>
+                    <!--
                     <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -73,16 +113,17 @@
                         <li class="divider"></li>
                         <li><a href="#">One more separated link</a></li>
                     </ul>
+                     -->
                 </li>
             </ul>
             
-            <form class="navbar-form navbar-left" role="search">
+            <form class="navbar-form navbar-right" role="search">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                         </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
-            
+            <!--
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
                 <li class="dropdown">
@@ -96,6 +137,7 @@
                     </ul>
                 </li>
             </ul>
+             -->
         </div><!-- End Drop Down List -->
     </nav><!-- End Navigation Bar -->
     
@@ -211,10 +253,11 @@
 	   </div> <!-- end class container -->
     </div> <!-- end class leran-more -->
     
-    <!-- Link -->
+    <!-- Share Link -->
     <section id="share">
+        <div class="shareframe">
         <div class="container">
-            <center><h5>Share</h5></center>
+            <center><h4>Share</h4></center>
             <div id="sharebuttons">
                 <a onclick="_gaq.push(['_trackEvent', 'Social', 'Share', 'Facebook', 1, true]);" href="https://www.facebook.com/sharer/sharer.php?u=http://zxspring21.github.io" target="_blank">
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAACKFBMVEX///87V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V507V508WJ09WJ49WZ5AXKBBXKBDXqFFYKJGYKJKZKRKZKVPaKdRaahUbKlVbapXb6tacaxfdq9mfLNrgbVug7dxhbhzh7l0iLl1iLp1ibp4jLx5jLx6jb18jr18j76Bk8CDlcGJmsSKm8WMncaNncaOnsePn8eSociTosmTo8mUo8qXpsuZp8yaqc2bqc2grc+hr9CjsNGksdGksdKlstKms9Kns9OqttSrt9WuutexvNiyvdmzvtm0vtm2wNq7xd2+x96+yN/Ayd/Cy+HI0OTM1ObP1efQ1+jR1+jS2OjU2unV2+rW3Ovb4O3c4e3e4+7f4+/f5O/g5fDh5fDi5vDk6PLm6fLm6vPn6/Pp7PTp7fTs7/Xw8vfz9fn19vr3+Pv4+fz5+vz9/f7///9nIs0kAAAAVHRSTlMAAwYJDA8SFRgbHiEkJyotMDM2OTw/QkVIS05RVFdaXWBjZmlsb3J1eHt+gYSHio2Qk5aZnJ+ipairrrG0t7q9wMPGyczP0tXb3uHk5+rt8PP2+fzDekMGAAAEfElEQVR42sXZ6VsTVxjG4SchJESxIYBsKkXKprIVUKCoAUwikEAS5um+2d3utdbue221q9jWtnazq9UuWu0y/16BqxEHCJlz5syc+0u+/ua93itzcgIJJdGmzqG4watk4v0dmyvggfKWwUkWlOjdUgYX1fdNsahEp0uTiPSkaVOyXfkcgu1JCtnd6Ic64Z4shaVaSqDG+v5ZSpluC6h4+p0Gpc1sczoFX1uWjkzUwonqJB0bDkNW6U6qkG2HnKopKrK3DBLaZqlMugaigrupkrHdByGRKSoWC0DAxgyVSwgswqYcXTBZDpuaDboiHYUtHXRLdiNsaKV7MhEUtZVuSq1DEQ0GXTURwpoiGbpsXwnWEJyi627AGkYo7O6njn76zc/nzv1y9uL577/+/KO3DrOIDhTUTkG3Hjr1p7nMbyzCqEEBlbMU8+QZc6WfWEw6qGYB7jppruZH6TUYpJB7vjVlA3gtVlFHIQd+MOUDZoJYITAltn6nTQcBHMQKXRRyxHQUwGosE85SxJ2/OgxI+GC1i0JeM4sEiO7hNYbYAC44DpiwjmCYQg6bjgO41cEA+LFZ2B+UGEE/hdxy1lzm8pcfHn1j0ZvP0qbNuCKUo5B7/zat5u6/kcLG5Y+hB02r9yilAnkTFPOMaXH+dkrpxv9qKOgF0+IDyknl13CAgl42LY5QUi0W+WccBjxBSbuwqJ4OAx6hpFwJFvQ5DXiUsuqxYEpfQA/mRagvIIl512kMMIIABt0IEHkfTOoM6AOC1BkQB2oo7jnT4iFKy/lsX4i8fvxY3tunTYtT7xxbcvwBithg+2vosmnT4xTRgD2054Jpzz/3UUQr9isOuHgHRfQipzjgu5sF70uoOOAzChlVHvA+hexXHvAKhaSVBzxNIRnVAf8+SCE51QF/HaAY1QG/36Y54Kub3NqBS6Ytn9CtgHfnrjhxxrT44sRc3slDFJMCJbxoWhykvIRUwEtFfpgIiCGj9UjGIST0BnRjRG9AM7r1BtRhq96AMCq1BswAAUNnQAxAQmdAN4A+nQENABp1BgQBhHVfUCCpL6ALC7r0BVRjQaW2gLQPiyZ1BfQI/GEmECB+Xb5BU0ACeWN6AtqQ16QlwChDnj+lI2AIS1p1BFRiSWDa+4BRXK3D+4AaS0BpxuuAGKx2eB1QBatAytuAQSzX6GlANowVRr0M6MBK5bPeBST8WEW7ZwFGFKvxxbwK2I7VlU17EzDuQwE1Bm151bR4jEJm1qOgTtry/CWLhynCqENhvr103TaspTRJl/VhbeEJumrEhyLKp+mimB9FRTN0TbIUNlS7VpAIwZZImq4YDcCmdRN0wbAftoX2Ubl+HwQERqiW0Q5BLbNUKFUNYdFJKrM7BAmBYaphdEDSljQV2FcBaYFegw7NNMORyDgdGQjCqcYkpe2phAqb4pQyFIUqdeMUZezcAJUiXWkKSLSFoFzdYI62pLsjcEegoTtZbPKx7RvhqtDm6+NZrio91lnrhyfKqpp7B+Lx+H6SxvznWP+OpmgJZPwHOEISk2pj2/QAAAAASUVORK5CYII=" alt="Facebook">
@@ -230,7 +273,7 @@
                         </a>
             </div>
         </div>
-        <p class="cf"></p>
+        </div>
     </section>
     
     
