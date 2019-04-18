@@ -5,10 +5,18 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1, user-scalable=1">
     <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
-
+    <!-- Content -->
     <link href="style/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="main.css">
+    <!-- Naviation Bar -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.1.0/addons/bootstrap/jquery.smartmenus.bootstrap.min.css" rel="stylesheet"></link>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.1.0/jquery.smartmenus.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.1.0/addons/bootstrap/jquery.smartmenus.bootstrap.min.js"></script>
+    
   </head>
 
   <body>
@@ -31,6 +39,90 @@
       </div> <!-- end container class -->
     </div> <!--end nav class -->
 
+    <!-- Navigation Bar -->
+    <div class="nav bar navbar-default" role="navigation">
+        <!-- Website Title -->
+        <div calss="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Website Title Setting-->
+            <!--
+             <a class="navbar-brand" href="#">Portran Blog</a>
+             -->
+        </div>
+        <!-- End Website title -->
+        <!-- Drop Down List -->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">HOME</a></li>
+                
+                <li><a href="#">ABOUT<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#"> Second layer dropdown list<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#"> Third layer dropdown list<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Item 1</a></li>
+                                        <li><a href="#">Item 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">PORTFOLIO<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#"> Second layer dropdown list<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">BLOG<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#"> Second layer dropdown list<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">CONTACT<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#"> Second layer dropdown list<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                
+            </ul>
+        </div><!-- End Drop Down List -->
+    </div><!-- End Navigation Bar -->
+    
+    <!-- Gallery-->
     <div class="jumbotron">
       <div class="container">
         <h1>Find a place to stay.</h1>
