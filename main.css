@@ -11,10 +11,11 @@
 }
 
 .jumbotron {
-  background-image:url("Archieve/Images/galaxy1.jpg");
+  background-image:url("Archieve/Images/galaxy1.jpg"); 
   background-repeat:no-repeat;
   background-color:lightblue;
-  background-size:contain;
+  background-size:cover;
+  background-position:center;
   height: 500px;
 }
 
