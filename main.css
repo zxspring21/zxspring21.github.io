@@ -17,6 +17,7 @@
 }
 
 /*MARK:*/
+/* Footer & Share Link & Navigation Bar in New File System */
 .navbar {
     background-color: #1e1919;
 }
@@ -161,6 +162,7 @@
 }
 /*end navbar*/
 
+
 .myjumbotron {
     background-image:url("Archieve/Images/galaxy1.jpg");
     background-repeat:no-repeat;
@@ -182,7 +184,7 @@
     font-weight: bold;
 }
 .myjumbotron h3{
-    color: #011523
+    color: #011523;
 }
 
 .myjumbotron p {
@@ -190,7 +192,6 @@
     color: #fff;
 }
 /* MARK: */
-
 /*
 .neighborhood-guides{
     background-color:#efefef;
@@ -207,180 +208,61 @@
 }
 */
 .learn-more {
-    background-color: #f7f7f7;
+    background-color: #020b28;
+    padding:10px;
 }
-
+.learn-more h2 {
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #011523;
+}
 .learn-more h3 {
     font-family: 'Shift', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    color: #FFF;
 }
 
 .learn-more a {
     color: #011523;
 }
 
-.about{
+.information{
+    background-image:url("Archieve/Images/galaxy9.jpg");
+    background-size:cover;
     text-align: center;
 }
-/* Footer & Share Link & Navigation Bar in New File System */
-/*
-.navbar {
-  background-color: #1e1919;
+.about{
+    background-image:url("Archieve/Images/galaxy6.jpg");
+    background-size:cover;
+    text-align: center;
 }
-.navbar .navbar-brand {
-  color: #afb5b6;
-}
-.navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus {
-  color: #f5f6f6;
-}
-.navbar .navbar-text {
-  color: #afb5b6;
-}
-.navbar .navbar-text a {
-  color: #f5f6f6;
-}
-.navbar .navbar-text a:hover,
-.navbar .navbar-text a:focus {
-  color: #f5f6f6; 
-}
-.navbar .navbar-nav .nav-link {
-  color: #afb5b6;
-  border-radius: .25rem;
-  margin: 0 0.25em;
-}
-.navbar .navbar-nav .nav-link:not(.disabled):hover,
-.navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #f5f6f6;
-}
-.navbar .navbar-nav .dropdown-menu {
-  background-color: #1e1919;
-  border-color: #2351ab;
-}
-.navbar .navbar-nav .dropdown-menu .dropdown-item {
-  color: #afb5b6;
-}
-.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
-.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
-.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
-  color: #f5f6f6;
-  background-color: #2351ab;
-}
-.navbar .navbar-nav .dropdown-menu .dropdown-divider {
-  border-top-color: #2351ab;
-}
-.navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item.active .nav-link:hover,
-.navbar .navbar-nav .nav-item.active .nav-link:focus,
-.navbar .navbar-nav .nav-item.show .nav-link,
-.navbar .navbar-nav .nav-item.show .nav-link:hover,
-.navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #f5f6f6;
-  background-color: #2351ab;
-}
-.navbar .navbar-toggle {
-  border-color: #2351ab;
-}
-.navbar .navbar-toggle:hover,
-.navbar .navbar-toggle:focus {
-  background-color: #2351ab;
-}
-.navbar .navbar-toggle .navbar-toggler-icon {
-  color: #afb5b6;
-}
-.navbar .navbar-collapse,
-.navbar .navbar-form {
-  border-color: #afb5b6;
-}
-.navbar .navbar-link {
-  color: #afb5b6;
-}
-.navbar .navbar-link:hover {
-  color: #f5f6f6;
+.portfolio{
+    background-image:url("Archieve/Images/galaxy7.jpg");
+    background-size:cover;
 }
 
-@media (max-width: 575px) {
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #afb5b6;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #f5f6f6;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #f5f6f6;
-    background-color: #2351ab;
-  }
-}
 
-@media (max-width: 767px) {
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #afb5b6;
-  }
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #f5f6f6;
-  }
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #f5f6f6;
-    background-color: #2351ab;
-  }
-}
-
-@media (max-width: 991px) {
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #afb5b6;
-  }
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #f5f6f6;
-  }
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #f5f6f6;
-    background-color: #2351ab;
-  }
-}
-
-@media (max-width: 1199px) {
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #afb5b6;
-  }
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #f5f6f6;
-  }
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #f5f6f6;
-    background-color: #2351ab;
-  }
-}
-
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #afb5b6;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #f5f6f6;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #f5f6f6;
-  background-color: #2351ab;
-}
- end TWBSColor*/
 /* General */
 a { color: #9b59b6; text-decoration: none; }
 a:hover, a:focus { color: #613375; }
 a:hover { text-decoration: underline; }
 .shareframe { padding: 10px 0; }
 section.empty { padding: 10px 0; }
-.shareframe {background-color: #210e6b; }
+.shareframe {
+    /*background-color: #210e6b;*/
+    background-image:url("Archieve/Images/galaxy2.jpg");
+}
 /* Content */
 a { transition: all .3s; }
 p.medium { font-size: 16px; line-height: 18px; color:black; font-family:Microsoft JhengHei  }
 p.small { font-size: 12px; line-height: 15px;}
 
 /* Share */
+.shareframe .h3{
+    color:#fff;
+}
 #sharebuttons { width: 760px; margin: 10px auto 0;}
 #sharebuttons a { float: left; margin: 0 30px; }
 #sharebuttons a img { opacity: .5; transition: all .2s; border-radius: 50%; }
