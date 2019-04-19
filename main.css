@@ -16,7 +16,7 @@
     display: inline;
 }
 
-.jumbotron {
+.myjumbotron {
     background-image:url("Archieve/Images/galaxy1.jpg");
     background-repeat:no-repeat;
     background-color:lightblue;
@@ -25,22 +25,26 @@
     height: 500px;
 }
 
-.jumbotron .container {
+.myjumbotron .container {
     position: relative;
     top:100px;
 }
 
-.jumbotron h1 {
+.myjumbotron h1 {
     color: #fff;
     font-size: 48px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
+.myjumbotron h3{
+    color: #011523
+}
 
-.jumbotron p {
+.myjumbotron p {
     font-size: 20px;
     color: #fff;
 }
+/*
 .neighborhood-guides{
     background-color:#efefef;
     border-bottom:1px solid #dbdbdb;
@@ -54,6 +58,7 @@
     font-size:15px;
     margin-bottom:13px;
 }
+*/
 .learn-more {
     background-color: #f7f7f7;
 }
@@ -65,9 +70,12 @@
 }
 
 .learn-more a {
-    color: #00b0ff;
+    color: #011523;
 }
 
+.about{
+    text-align: center;
+}
 /* Footer & Share Link & Navigation Bar in New File System */
 
 .navbar {
