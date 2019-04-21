@@ -162,9 +162,9 @@
 }
 /*end navbar*/
 
-
+/*Mark:jumbotron*/
 .myjumbotron {
-    background-image:url("Archieve/Images/galaxy1.jpg");
+    background-image:url("Archieve/Images/frontpage.jpeg");
     background-repeat:no-repeat;
     background-color:lightblue;
     background-size:cover;
@@ -174,12 +174,18 @@
 
 .myjumbotron .container {
     position: relative;
-    top:100px;
+    top:30px;
 }
 
 .myjumbotron h1 {
-    color: #fff;
+    color: #000;
     font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+.myjumbotron h2 {
+    color: #001c49;
+    font-size: 36px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
@@ -189,7 +195,7 @@
 
 .myjumbotron p {
     font-size: 20px;
-    color: #fff;
+    color: #000;
 }
 /* MARK: */
 /*
@@ -229,15 +235,17 @@
 }
 
 .information{
-    background-image:url("Archieve/Images/galaxy9.jpg");
+    background-image:url("Archieve/Images/galaxy6.jpg");
     background-size:cover;
     text-align: center;
 }
+/*
 .about{
     background-image:url("Archieve/Images/galaxy6.jpg");
     background-size:cover;
     text-align: center;
 }
+ */
 .portfolio{
     background-image:url("Archieve/Images/galaxy7.jpg");
     background-size:cover;
