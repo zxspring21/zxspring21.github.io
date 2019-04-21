@@ -1,12 +1,11 @@
 /* Old Style CSS*/
 
 .nav-page{
-    text-align: left;
     background-color:#020b28
 }
 .nav-page a {
     color: #cadcf9;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     padding: 35px 20px;
     /*text-transform: uppercase;*/
