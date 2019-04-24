@@ -260,31 +260,33 @@
 }
 
 
-/* General */
-a { color: #9b59b6; text-decoration: none; }
-a:hover, a:focus { color: #613375; }
-a:hover { text-decoration: underline; }
-.shareframe { padding: 10px 0; }
-section.empty { padding: 10px 0; }
-.shareframe {
-    /*background-color: #210e6b;*/
-    background-image:url("Archieve/Images/galaxy2.jpg");
-}
-/* Content */
-a { transition: all .3s; }
-p.medium { font-size: 16px; line-height: 18px; color:black; font-family:Microsoft JhengHei  }
-p.small { font-size: 12px; line-height: 15px;}
 
-/* Share */
-.shareframe .h3{
-    color:#fff;
+p.medium { font-size: 16px; line-height: 18px; color:black; font-family:Microsoft JhengHei  }
+p.small { font-size: 13px; line-height: 15px;}
+
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
 }
-#sharebuttons { width: 760px; margin: 10px auto 0;}
-#sharebuttons a { float: left; margin: 0 30px; }
-#sharebuttons a img { opacity: .5; transition: all .2s; border-radius: 50%; }
-#sharebuttons a:hover img { opacity: 1; box-shadow: 0 0 0 25px white, 0 0 0 30px #4286f4; }
+
+ul.share-buttons li{
+    display: inline;
+    padding:10px;
+}
+
+ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
 
 /* Footer */
-footer { background-color: #000; height:175px; padding: 50px 0; color: white; text-align: center;}
-footer p { font-size: 24px; line-height: 80px; }
-footer a { color: white; text-decoration: none !important; }
+footer { background-color: #000; height:40px; padding: 0px 0; color: white; text-align: center;}
+footer p { font-size: 20px; line-height: 10px; }
+footer a { color: white; text-decoration: none !important;  }
