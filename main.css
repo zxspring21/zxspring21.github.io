@@ -3,16 +3,25 @@
 .nav-page{
     background-color:#020b28
 }
+.nav-page container{
+    padding: 0px 0px;
+}
+.nav-page ul{
+    white-space: nowrap;
+}
 .nav-page a {
     color: #cadcf9;
+    
     font-size: 18px;
     font-weight: bold;
-    padding: 35px 20px;
+    padding: 0px 10px 0px 0px;
+    line-height:40px;
+    
     /*text-transform: uppercase;*/
 }
 
 .nav-page li {
-    display: inline;
+    display:inline-block;
 }
 
 /*MARK:*/
